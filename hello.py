@@ -1,6 +1,9 @@
 import numpy as np
 
-msg = "Roll a dice"
-print(msg)
+number = np.random.randint(1,3)
 
-print(np.random.randint(1,7))
+if(number == 1):
+    print("heads")
+
+else:
+    print("tails")
